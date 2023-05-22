@@ -84,11 +84,17 @@ h2 {
   color: #042a70;
   text-align: center;
   font-style: italic;
+  font-size: 20px;
   padding-top: 50px;
-  animation-name: heading;
+  animation-name: heading2;
   animation-duration: 1200ms;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
   animation-direction:normal;
+}
+
+@keyframes heading2 {
+  0% { transform:scaley(0); }
+  100% { transform:scaley(1); }
 }
