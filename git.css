@@ -80,3 +80,15 @@ h1 {
   0% { transform:scalex(0); }
   100% { transform:scalex(1); }
 }
+h2 {
+  color: #042a70;
+  text-align: center;
+  font-style: italic;
+  padding-top: 50px;
+  animation-name: heading;
+  animation-duration: 1200ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-direction:normal;
+}
